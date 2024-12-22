@@ -89,6 +89,7 @@
               <option value="USD">USD</option>
               <option value="EUR">EUR</option>
               <option value="INR" selected>INR</option>
+              <option value="GBP">GBP</option>
             </select>
           </div>
           <div class="filter-right">
@@ -105,7 +106,7 @@
             <option value="expense">Expense</option>
           </select>
           <button onclick="addTransaction()">Add Transaction</button>
-          <button onclick="handleDownload()">Export</button>
+          <button onclick="handleDownload()"id="export-btn">Export</button>
         </div>
         <div class="table-part" id="table-part">
           <table id="transaction-table">
